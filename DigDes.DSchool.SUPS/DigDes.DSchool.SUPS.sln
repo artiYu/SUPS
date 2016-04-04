@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigDes.DSchool.SUPS.DataAccess.Interface", "DigDes.DSchool.SUPS.DataAccess.Interface\DigDes.DSchool.SUPS.DataAccess.Interface.csproj", "{1C3552E6-0691-4A94-BAFC-51286F2FA28A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigDes.DSchool.SUPS.DataAccess", "DigDes.DSchool.SUPS.DataAccess\DigDes.DSchool.SUPS.DataAccess.csproj", "{925327F5-1736-4C6D-AE57-4C5B3D2F1929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigDes.DSchool.SUPS.BusinessLogic", "DigDes.DSchool.SUPS.BusinessLogin\DigDes.DSchool.SUPS.BusinessLogic.csproj", "{D272A400-6FEA-47A9-B081-07FAE09112EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigDes.DSchool.SUPS.Test.App", "DigDes.DSchool.SUPS.Test.App\DigDes.DSchool.SUPS.Test.App.csproj", "{2964631C-1320-437C-8E3D-C28ECA48AA5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C6AD362D-8B39-495C-8018-22BEF0B5DC9C}"
+	ProjectSection(SolutionItems) = preProject
+		Database\SUPS.mdf = Database\SUPS.mdf
+		Database\SUPS_log.ldf = Database\SUPS_log.ldf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{DD08707E-878F-4CB8-9E72-1D4FE76618C8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DBSUPS", "DBSUPS\DBSUPS.sqlproj", "{C26B17E2-9C4D-403F-A057-DFB33FA131AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcSUPSApp", "MvcSUPSApp\MvcSUPSApp.csproj", "{82C57533-FD24-4DAF-9B96-4478593F88BF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs18
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DigDes.DSchool.SUPS.BusinessLogin\\DigDes.DSchool.SUPS.BusinessLogic.csproj
+		SccProjectName1 = DigDes.DSchool.SUPS.BusinessLogin
+		SccLocalPath1 = DigDes.DSchool.SUPS.BusinessLogin
+		SccProjectUniqueName2 = DigDes.DSchool.SUPS.DataAccess.Interface\\DigDes.DSchool.SUPS.DataAccess.Interface.csproj
+		SccProjectName2 = DigDes.DSchool.SUPS.DataAccess.Interface
+		SccLocalPath2 = DigDes.DSchool.SUPS.DataAccess.Interface
+		SccProjectUniqueName3 = DigDes.DSchool.SUPS.DataAccess\\DigDes.DSchool.SUPS.DataAccess.csproj
+		SccProjectName3 = DigDes.DSchool.SUPS.DataAccess
+		SccLocalPath3 = DigDes.DSchool.SUPS.DataAccess
+		SccProjectUniqueName4 = DigDes.DSchool.SUPS.Test.App\\DigDes.DSchool.SUPS.Test.App.csproj
+		SccProjectName4 = DigDes.DSchool.SUPS.Test.App
+		SccLocalPath4 = DigDes.DSchool.SUPS.Test.App
+		SccProjectUniqueName5 = WebUI\\WebUI.csproj
+		SccProjectName5 = WebUI
+		SccLocalPath5 = WebUI
+		SccProjectUniqueName6 = DBSUPS\\DBSUPS.sqlproj
+		SccProjectName6 = DBSUPS
+		SccLocalPath6 = DBSUPS
+		SccProjectUniqueName7 = MvcSUPSApp\\MvcSUPSApp.csproj
+		SccProjectName7 = MvcSUPSApp
+		SccLocalPath7 = MvcSUPSApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C3552E6-0691-4A94-BAFC-51286F2FA28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3552E6-0691-4A94-BAFC-51286F2FA28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3552E6-0691-4A94-BAFC-51286F2FA28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3552E6-0691-4A94-BAFC-51286F2FA28A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925327F5-1736-4C6D-AE57-4C5B3D2F1929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925327F5-1736-4C6D-AE57-4C5B3D2F1929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925327F5-1736-4C6D-AE57-4C5B3D2F1929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925327F5-1736-4C6D-AE57-4C5B3D2F1929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D272A400-6FEA-47A9-B081-07FAE09112EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D272A400-6FEA-47A9-B081-07FAE09112EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D272A400-6FEA-47A9-B081-07FAE09112EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D272A400-6FEA-47A9-B081-07FAE09112EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2964631C-1320-437C-8E3D-C28ECA48AA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2964631C-1320-437C-8E3D-C28ECA48AA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2964631C-1320-437C-8E3D-C28ECA48AA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2964631C-1320-437C-8E3D-C28ECA48AA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD08707E-878F-4CB8-9E72-1D4FE76618C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD08707E-878F-4CB8-9E72-1D4FE76618C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD08707E-878F-4CB8-9E72-1D4FE76618C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD08707E-878F-4CB8-9E72-1D4FE76618C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26B17E2-9C4D-403F-A057-DFB33FA131AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26B17E2-9C4D-403F-A057-DFB33FA131AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26B17E2-9C4D-403F-A057-DFB33FA131AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C26B17E2-9C4D-403F-A057-DFB33FA131AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26B17E2-9C4D-403F-A057-DFB33FA131AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26B17E2-9C4D-403F-A057-DFB33FA131AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{82C57533-FD24-4DAF-9B96-4478593F88BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C57533-FD24-4DAF-9B96-4478593F88BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C57533-FD24-4DAF-9B96-4478593F88BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C57533-FD24-4DAF-9B96-4478593F88BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
